@@ -1,0 +1,265 @@
+h2{
+   color: hsl(300, 43%, 22%);
+   font-size: 3rem;
+   font-weight: 700;
+   width:45%;
+   
+    padding-top: 8%;
+    padding-left: 19%;
+    display: inline-block;
+   
+}
+.para{
+    color:hsl(303, 10%, 53%) ;
+    font-weight: 700;
+    width: 45%;
+    
+    padding-left: 19%;
+    margin-right: 0%;
+    display: inline-block;
+}
+.star{
+    background-image: url(images/icon-star.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 1px;
+    position: relative;
+    top: 7px;
+    
+    
+}
+.rating{
+    margin: 20px;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    
+    
+    
+
+}
+.star-container{
+    display: inline-block;
+    margin-right: 5%;
+}
+.container{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    
+    display: inline-block;
+    width: 60%;
+
+}
+.rating-container{
+    
+    display: inline-block;
+    margin-top: 7%;
+    
+    
+}
+*{
+    font-family: 'League Spartan', sans-serif;
+    
+    font-size: 15px;
+}
+#rating1{
+    
+    margin-left: -4rem;
+    
+}
+#rating2{
+    margin-left: -2rem;
+}
+#rating3{
+    margin-left: 0rem; 
+}
+body{
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 10rem 5rem;
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin: 0%;
+    max-width: 100vw;
+    
+}
+
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    margin-left: 8rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    
+    
+    
+}
+.review{
+    width: 28%;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin: 0% 1%;
+    border-radius: 0.5rem;
+   
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+
+    
+}
+.dp{
+    
+     width: 3rem;
+    height: 2.2rem;
+    
+    background-position: center center;
+    border-radius: 4rem;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    
+}
+#colton{
+    background-image: url(images/image-colton.jpg);
+}
+#irene{
+    background-image: url(images/image-irene.jpg);
+}
+#anne{
+    background-image: url(images/image-anne.jpg);
+}
+.name{
+    display: inline-block;
+    
+    width: 10rem;
+    
+    
+    
+    
+}
+.verified-buyer{
+    display: inline-block;
+    color: hsl(333, 80%, 67%);
+    width: 10rem;
+    
+    font-weight: 300;
+    
+}
+.name{
+ font-weight: 700;
+}
+.review-body{
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    color:  hsl(300, 24%, 96%);
+}
+#rev2{
+    margin-top: 1rem;
+}
+#rev3{
+    margin-top: 2rem;
+}
+.review-top{
+    display: flex;
+    
+    
+}
+.review-header{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.review-body{
+    margin-top: 1rem;
+}
+/* media queries */
+@media  screen and (max-width: 885px) {
+   
+    
+.body{
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-image: url(images/bg-pattern-bottom-mobile.svg);
+    
+}
+.container{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-top: 5rem;
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    
+}
+h2{display: block;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    width: 100%;
+    
+}
+.para{width: 90%;
+    display: block;
+    padding: 2rem 0rem;
+    margin: auto;
+    text-align: center;
+    
+}
+.rating-container{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.rating{display: block;
+    margin: 2rem auto;
+    
+    width: 80%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    ;
+    
+    
+    
+}
+#rating1{
+    
+    margin-left: auto;
+    
+}
+#rating2{
+    margin-left: auto;
+}
+#rating3{
+    margin-left: auto; 
+}
+.star-container{
+    margin-bottom: 0.5rem;
+}
+.review-container{
+    flex-direction: column;
+    margin: auto;
+    padding: 0rem 1rem;
+    
+
+}
+.review{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+}
