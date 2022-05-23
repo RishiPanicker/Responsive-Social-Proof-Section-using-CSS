@@ -19,7 +19,7 @@ h2{
     display: inline-block;
 }
 .star{
-    background-image: url(/icon-star.svg);
+    background-image: url(icon-star.svg);
     background-repeat: no-repeat;
     display: inline-block;
     width: 20px;
@@ -48,7 +48,7 @@ h2{
     margin-right: 5%;
 }
 .container{
-    background-image: url(/bg-pattern-top-desktop.svg);
+    background-image: url(bg-pattern-top-desktop.svg);
     background-position: top left;
     background-repeat: no-repeat;
     
@@ -80,7 +80,7 @@ h2{
     margin-left: 0rem; 
 }
 body{
-    background-image: url(/bg-pattern-bottom-desktop.svg);
+    background-image: url(bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: 10rem 5rem;
     display: flex;
@@ -129,13 +129,13 @@ body{
     
 }
 #colton{
-    background-image: url(/image-colton.jpg);
+    background-image: url(image-colton.jpg);
 }
 #irene{
-    background-image: url(/image-irene.jpg);
+    background-image: url(image-irene.jpg);
 }
 #anne{
-    background-image: url(/image-anne.jpg);
+    background-image: url(image-anne.jpg);
 }
 .name{
     display: inline-block;
@@ -190,7 +190,7 @@ body{
     flex-direction: column;
     margin: auto;
     align-items: center;
-    background-image: url(/bg-pattern-bottom-mobile.svg);
+    background-image: url(bg-pattern-bottom-mobile.svg);
     
 }
 .container{
@@ -198,7 +198,7 @@ body{
     width: 100%;
     margin: auto;
     padding-top: 5rem;
-    background-image: url(/bg-pattern-top-mobile.svg);
+    background-image: url(bg-pattern-top-mobile.svg);
     
 }
 h2{display: block;
